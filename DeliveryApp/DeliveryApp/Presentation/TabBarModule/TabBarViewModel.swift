@@ -23,7 +23,12 @@ final class TabBarViewModelImpl: TabBarViewModel {
     // MARK: Public Methods
 
     func generateTabBar() -> [UIViewController] {
-        let mainNC = ViewController()
+        let assembleCategory = CategoryAssemblyImpl()
+        let coordinator = CategoryCoordinator(navigationController: UINavigationController())
+        let mainNC = UINavigationController(
+            rootViewController: assembleCategory.createCategoryModule(coordinator: coordinator)
+        )
+        coordinator.configure(navigationController: mainNC)
         let viewControllers = [
             generateVC(
                 viewController: mainNC,
@@ -48,9 +53,9 @@ final class TabBarViewModelImpl: TabBarViewModel {
         ]
         return viewControllers
     }
-
+    
     // MARK: Private Methods
-
+    
     private func generateVC(viewController: UIViewController, title: String, image: UIImage?) -> UIViewController {
         viewController.tabBarItem.title = title
         viewController.tabBarItem.image = image
