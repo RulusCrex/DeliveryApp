@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2EF7672C11E326001E2A81 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7E2EF7662C11E326001E2A81 /* swiftgen.yml */; };
+		7E2EF7822C11EDC2001E2A81 /* ProxyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */; };
+		7E2EF7842C11EDD5001E2A81 /* NetwokManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */; };
+		7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7862C11EE72001E2A81 /* StoragesRepository.swift */; };
+		7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF78C2C11EEF5001E2A81 /* RealmManager.swift */; };
+		7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF78E2C11EF11001E2A81 /* CacheService.swift */; };
+		7E2EF7912C11EF2E001E2A81 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7902C11EF2E001E2A81 /* CoreDataManager.swift */; };
+		7E2EF7972C11F0FF001E2A81 /* MenuTagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7962C11F0FF001E2A81 /* MenuTagData.swift */; };
+		7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7982C11F107001E2A81 /* MenuData.swift */; };
+		7E2EF79B2C11F10E001E2A81 /* DishCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF79A2C11F10E001E2A81 /* DishCoreData+CoreDataProperties.swift */; };
+		7E2EF79D2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF79C2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift */; };
+		7E2EF79F2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF79E2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift */; };
+		7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A02C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift */; };
+		7E2EF7A32C11F127001E2A81 /* СategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A22C11F127001E2A81 /* СategoryModel.swift */; };
+		7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A42C11F16E001E2A81 /* CoreData.xcdatamodeld */; };
 		7EE545012C0333550082B88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545002C0333550082B88B /* AppDelegate.swift */; };
 		7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545022C0333550082B88B /* SceneDelegate.swift */; };
 		7EE545052C0333550082B88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545042C0333550082B88B /* ViewController.swift */; };
@@ -16,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E2EF7662C11E326001E2A81 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyService.swift; sourceTree = "<group>"; };
+		7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwokManager.swift; sourceTree = "<group>"; };
+		7E2EF7862C11EE72001E2A81 /* StoragesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragesRepository.swift; sourceTree = "<group>"; };
+		7E2EF78C2C11EEF5001E2A81 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		7E2EF78E2C11EF11001E2A81 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		7E2EF7902C11EF2E001E2A81 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7E2EF7962C11F0FF001E2A81 /* MenuTagData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTagData.swift; sourceTree = "<group>"; };
+		7E2EF7982C11F107001E2A81 /* MenuData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		7E2EF79A2C11F10E001E2A81 /* DishCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DishCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E2EF79C2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DishCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E2EF79E2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E2EF7A02C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E2EF7A22C11F127001E2A81 /* СategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "СategoryModel.swift"; sourceTree = "<group>"; };
+		7E2EF7A52C11F16E001E2A81 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		7EE544FD2C0333550082B88B /* DeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE545002C0333550082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE545022C0333550082B88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +76,6 @@
 				89F2B36B065DDE60F96AC444 /* Pods-DeliveryApp.debug.xcconfig */,
 				7F1BE94238D83AFDAD9ABB79 /* Pods-DeliveryApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,9 +87,102 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E2EF77F2C11ED96001E2A81 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7802C11EDAC001E2A81 /* Networking */,
+				7E2EF7852C11EE1E001E2A81 /* Repositories */,
+				7E2EF7882C11EE96001E2A81 /* Storage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7E2EF7802C11EDAC001E2A81 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */,
+				7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7E2EF7852C11EE1E001E2A81 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7862C11EE72001E2A81 /* StoragesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		7E2EF7882C11EE96001E2A81 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF78B2C11EEDE001E2A81 /* Realm */,
+				7E2EF78A2C11EED5001E2A81 /* CacheService */,
+				7E2EF7892C11EECA001E2A81 /* CoreData */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		7E2EF7892C11EECA001E2A81 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7902C11EF2E001E2A81 /* CoreDataManager.swift */,
+				7E2EF7A42C11F16E001E2A81 /* CoreData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7E2EF78A2C11EED5001E2A81 /* CacheService */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF78E2C11EF11001E2A81 /* CacheService.swift */,
+			);
+			path = CacheService;
+			sourceTree = "<group>";
+		};
+		7E2EF78B2C11EEDE001E2A81 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF78C2C11EEF5001E2A81 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		7E2EF7922C11EFB3001E2A81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7EE545142C0340080082B88B /* Core */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7E2EF7942C11F01E001E2A81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7952C11F02D001E2A81 /* Entities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7E2EF7952C11F02D001E2A81 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7962C11F0FF001E2A81 /* MenuTagData.swift */,
+				7E2EF79C2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift */,
+				7E2EF7A22C11F127001E2A81 /* СategoryModel.swift */,
+				7E2EF7A02C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift */,
+				7E2EF79E2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift */,
+				7E2EF79A2C11F10E001E2A81 /* DishCoreData+CoreDataProperties.swift */,
+				7E2EF7982C11F107001E2A81 /* MenuData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		7EE544F42C0333550082B88B = {
 			isa = PBXGroup;
 			children = (
+				7E2EF7662C11E326001E2A81 /* swiftgen.yml */,
 				7EE544FF2C0333550082B88B /* DeliveryApp */,
 				7EE544FE2C0333550082B88B /* Products */,
 				24DEC65C06FBC8B02F5B5A57 /* Pods */,
@@ -79,10 +201,10 @@
 		7EE544FF2C0333550082B88B /* DeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
-				7EE545142C0340080082B88B /* Core */,
+				7E2EF7922C11EFB3001E2A81 /* App */,
+				7E2EF7942C11F01E001E2A81 /* Core */,
+				7E2EF77F2C11ED96001E2A81 /* Data */,
 				7EE545042C0333550082B88B /* ViewController.swift */,
-				7EE545092C0333570082B88B /* Assets.xcassets */,
-				7EE5450B2C0333570082B88B /* LaunchScreen.storyboard */,
 			);
 			path = DeliveryApp;
 			sourceTree = "<group>";
@@ -92,6 +214,8 @@
 			children = (
 				7EE545022C0333550082B88B /* SceneDelegate.swift */,
 				7EE545002C0333550082B88B /* AppDelegate.swift */,
+				7EE5450B2C0333570082B88B /* LaunchScreen.storyboard */,
+				7EE545092C0333570082B88B /* Assets.xcassets */,
 				7EE5450E2C0333570082B88B /* Info.plist */,
 			);
 			path = Core;
@@ -105,10 +229,13 @@
 			buildConfigurationList = 7EE545112C0333570082B88B /* Build configuration list for PBXNativeTarget "DeliveryApp" */;
 			buildPhases = (
 				6BE82A97368ACCF25B3E528C /* [CP] Check Pods Manifest.lock */,
+				7E2EF7472C11DD20001E2A81 /* SwiftGen */,
 				7EE544F92C0333550082B88B /* Sources */,
 				7EE544FA2C0333550082B88B /* Frameworks */,
 				7EE544FB2C0333550082B88B /* Resources */,
 				13F10674729FE77F4315DD69 /* [CP] Embed Pods Frameworks */,
+				7E2EF7482C11DD22001E2A81 /* SwiftLint */,
+				7E2EF7492C11DD24001E2A81 /* SwiftFormatter  */,
 			);
 			buildRules = (
 			);
@@ -141,6 +268,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 7EE544F42C0333550082B88B;
 			productRefGroup = 7EE544FE2C0333550082B88B /* Products */;
@@ -159,6 +287,7 @@
 			files = (
 				7EE5450A2C0333570082B88B /* Assets.xcassets in Resources */,
 				7EE5450D2C0333570082B88B /* Base in Resources */,
+				7E2EF7672C11E326001E2A81 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +333,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7E2EF7472C11DD20001E2A81 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
+		7E2EF7482C11DD22001E2A81 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		7E2EF7492C11DD24001E2A81 /* SwiftFormatter  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftFormatter ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat $SRCROOT\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,8 +395,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE545052C0333550082B88B /* ViewController.swift in Sources */,
+				7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */,
+				7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */,
+				7E2EF79D2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift in Sources */,
+				7E2EF7842C11EDD5001E2A81 /* NetwokManager.swift in Sources */,
+				7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */,
+				7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */,
+				7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */,
 				7EE545012C0333550082B88B /* AppDelegate.swift in Sources */,
 				7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */,
+				7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */,
+				7E2EF7972C11F0FF001E2A81 /* MenuTagData.swift in Sources */,
+				7E2EF79F2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift in Sources */,
+				7E2EF7A32C11F127001E2A81 /* СategoryModel.swift in Sources */,
+				7E2EF79B2C11F10E001E2A81 /* DishCoreData+CoreDataProperties.swift in Sources */,
+				7E2EF7912C11EF2E001E2A81 /* CoreDataManager.swift in Sources */,
+				7E2EF7822C11EDC2001E2A81 /* ProxyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +465,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -331,7 +528,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -359,7 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DeliveryApp/Core/Info.plist;
+				INFOPLIST_FILE = DeliveryApp/App/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -386,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DeliveryApp/Core/Info.plist;
+				INFOPLIST_FILE = DeliveryApp/App/Core/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -426,6 +623,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E2EF7A42C11F16E001E2A81 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E2EF7A52C11F16E001E2A81 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 7E2EF7A52C11F16E001E2A81 /* CoreData.xcdatamodel */;
+			name = CoreData.xcdatamodeld;
+			path = "/Users/paveldmitrievic/Desktop/DeliveryApp-/DeliveryApp/DeliveryApp/Data/Storage/CoreData/CoreData.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7EE544F52C0333550082B88B /* Project object */;
 }

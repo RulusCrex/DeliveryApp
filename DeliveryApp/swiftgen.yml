@@ -1,0 +1,7 @@
+## Strings
+strings:
+  inputs: /Users/paveldmitrievic/Desktop/DeliveryApp-/DeliveryApp/DeliveryApp/Resourse/Localizable/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      # 2
+      output: /Users/paveldmitrievic/Desktop/DeliveryApp-/DeliveryApp/DeliveryApp/Resourse/Generated/SwiftGenLocalizable.swift
