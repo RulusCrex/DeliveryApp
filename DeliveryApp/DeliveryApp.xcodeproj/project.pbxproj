@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E2EF7672C11E326001E2A81 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7E2EF7662C11E326001E2A81 /* swiftgen.yml */; };
 		7E2EF7822C11EDC2001E2A81 /* ProxyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */; };
-		7E2EF7842C11EDD5001E2A81 /* NetwokManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */; };
+		7E2EF7842C11EDD5001E2A81 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7832C11EDD5001E2A81 /* NetworkManager.swift */; };
 		7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7862C11EE72001E2A81 /* StoragesRepository.swift */; };
 		7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF78C2C11EEF5001E2A81 /* RealmManager.swift */; };
 		7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF78E2C11EF11001E2A81 /* CacheService.swift */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		7E2EF7662C11E326001E2A81 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyService.swift; sourceTree = "<group>"; };
-		7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwokManager.swift; sourceTree = "<group>"; };
+		7E2EF7832C11EDD5001E2A81 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7E2EF7862C11EE72001E2A81 /* StoragesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragesRepository.swift; sourceTree = "<group>"; };
 		7E2EF78C2C11EEF5001E2A81 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		7E2EF78E2C11EF11001E2A81 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7E2EF7812C11EDC2001E2A81 /* ProxyService.swift */,
-				7E2EF7832C11EDD5001E2A81 /* NetwokManager.swift */,
+				7E2EF7832C11EDD5001E2A81 /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 				7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */,
 				7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */,
 				7E2EF79D2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift in Sources */,
-				7E2EF7842C11EDD5001E2A81 /* NetwokManager.swift in Sources */,
+				7E2EF7842C11EDD5001E2A81 /* NetworkManager.swift in Sources */,
 				7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */,
 				7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */,
 				7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */,

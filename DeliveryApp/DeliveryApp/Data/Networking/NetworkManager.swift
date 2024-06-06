@@ -1,4 +1,4 @@
-// NetwokManager.swift
+// NetworkManager.swift
 // HomeWorkTestApp
 
 import CoreData
