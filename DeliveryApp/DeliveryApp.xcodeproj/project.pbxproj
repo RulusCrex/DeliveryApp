@@ -37,6 +37,12 @@
 		7E2EF7E52C11FEFA001E2A81 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7E02C11FEFA001E2A81 /* UIViewController+Extension.swift */; };
 		7E2EF7E62C11FEFA001E2A81 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7E22C11FEFA001E2A81 /* Typealias.swift */; };
 		7E2EF7E82C120A7E001E2A81 /* CategoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7E72C120A7E001E2A81 /* CategoryCoordinator.swift */; };
+		7E2EF7F32C120B81001E2A81 /* MenuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7E92C120B81001E2A81 /* MenuAssembly.swift */; };
+		7E2EF7F42C120B81001E2A81 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7EB2C120B81001E2A81 /* MenuCollectionViewCell.swift */; };
+		7E2EF7F52C120B81001E2A81 /* MenuTagButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7EC2C120B81001E2A81 /* MenuTagButtonCollectionViewCell.swift */; };
+		7E2EF7F62C120B81001E2A81 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7EE2C120B81001E2A81 /* MenuViewController.swift */; };
+		7E2EF7F72C120B81001E2A81 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7F02C120B81001E2A81 /* MenuViewModel.swift */; };
+		7E2EF7F92C120B95001E2A81 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */; };
 		7EE545012C0333550082B88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545002C0333550082B88B /* AppDelegate.swift */; };
 		7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545022C0333550082B88B /* SceneDelegate.swift */; };
 		7EE545052C0333550082B88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545042C0333550082B88B /* ViewController.swift */; };
@@ -76,6 +82,12 @@
 		7E2EF7E02C11FEFA001E2A81 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		7E2EF7E22C11FEFA001E2A81 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		7E2EF7E72C120A7E001E2A81 /* CategoryCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCoordinator.swift; sourceTree = "<group>"; };
+		7E2EF7E92C120B81001E2A81 /* MenuAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuAssembly.swift; sourceTree = "<group>"; };
+		7E2EF7EB2C120B81001E2A81 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E2EF7EC2C120B81001E2A81 /* MenuTagButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTagButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E2EF7EE2C120B81001E2A81 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7E2EF7F02C120B81001E2A81 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
 		7EE544FD2C0333550082B88B /* DeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE545002C0333550082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE545022C0333550082B88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +226,7 @@
 		7E2EF7A72C11F774001E2A81 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				7E2EF7F22C120B81001E2A81 /* MenuModule */,
 				7E2EF7DA2C11FE48001E2A81 /* CategoryModule */,
 				7E2EF7A82C11F781001E2A81 /* TabBarModule */,
 			);
@@ -318,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				7E2EF7E72C120A7E001E2A81 /* CategoryCoordinator.swift */,
+				7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */,
 			);
 			path = ModuleCoordinators;
 			sourceTree = "<group>";
@@ -381,6 +395,50 @@
 				7E2EF7E22C11FEFA001E2A81 /* Typealias.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		7E2EF7EA2C120B81001E2A81 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7E92C120B81001E2A81 /* MenuAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7E2EF7ED2C120B81001E2A81 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7EB2C120B81001E2A81 /* MenuCollectionViewCell.swift */,
+				7E2EF7EC2C120B81001E2A81 /* MenuTagButtonCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7E2EF7EF2C120B81001E2A81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7ED2C120B81001E2A81 /* Cell */,
+				7E2EF7EE2C120B81001E2A81 /* MenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E2EF7F12C120B81001E2A81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7F02C120B81001E2A81 /* MenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7E2EF7F22C120B81001E2A81 /* MenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7EA2C120B81001E2A81 /* Assembly */,
+				7E2EF7EF2C120B81001E2A81 /* View */,
+				7E2EF7F12C120B81001E2A81 /* ViewModel */,
+			);
+			path = MenuModule;
 			sourceTree = "<group>";
 		};
 		7EE544F42C0333550082B88B = {
@@ -610,21 +668,27 @@
 				7E2EF79D2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift in Sources */,
 				7E2EF7842C11EDD5001E2A81 /* NetworkManager.swift in Sources */,
 				7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */,
+				7E2EF7F72C120B81001E2A81 /* MenuViewModel.swift in Sources */,
 				7E2EF7DB2C11FE48001E2A81 /* CategoryAssembly.swift in Sources */,
 				7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */,
 				7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */,
+				7E2EF7F62C120B81001E2A81 /* MenuViewController.swift in Sources */,
 				7E2EF7D02C11FBD2001E2A81 /* BaseCoordinator.swift in Sources */,
 				7E2EF7E82C120A7E001E2A81 /* CategoryCoordinator.swift in Sources */,
 				7E2EF7DC2C11FE48001E2A81 /* CategoryCell.swift in Sources */,
 				7E2EF7CA2C11FB48001E2A81 /* TabBarViewController.swift in Sources */,
+				7E2EF7F52C120B81001E2A81 /* MenuTagButtonCollectionViewCell.swift in Sources */,
 				7EE545012C0333550082B88B /* AppDelegate.swift in Sources */,
 				7E2EF7E62C11FEFA001E2A81 /* Typealias.swift in Sources */,
 				7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */,
 				7E2EF7AB2C11F7C6001E2A81 /* TabBarViewModel.swift in Sources */,
+				7E2EF7F42C120B81001E2A81 /* MenuCollectionViewCell.swift in Sources */,
 				7E2EF7B42C11F836001E2A81 /* SwiftGenLocalizable.swift in Sources */,
 				7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */,
+				7E2EF7F92C120B95001E2A81 /* MenuCoordinator.swift in Sources */,
 				7E2EF7972C11F0FF001E2A81 /* MenuTagData.swift in Sources */,
 				7E2EF79F2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift in Sources */,
+				7E2EF7F32C120B81001E2A81 /* MenuAssembly.swift in Sources */,
 				7E2EF7DD2C11FE48001E2A81 /* CategoryViewController.swift in Sources */,
 				7E2EF7E42C11FEFA001E2A81 /* Array+Extension.swift in Sources */,
 				7E2EF7A32C11F127001E2A81 /* СategoryModel.swift in Sources */,
