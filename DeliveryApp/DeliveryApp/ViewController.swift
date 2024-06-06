@@ -1,19 +1,11 @@
-//
-//  ViewController.swift
-//  DeliveryApp
-//
-//  Created by Павел Дмитриевич on 26.05.2024.
-//
+// ViewController.swift
+// HomeWorkTestApp
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
     }
-
-
 }
-
