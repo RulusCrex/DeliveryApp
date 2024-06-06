@@ -8,4 +8,6 @@ target 'DeliveryApp' do
   # Pods for DeliveryApp
 pod 'SwiftLint'
 pod 'SwiftFormat/CLI', '~> 0.49'
+pod 'RealmSwift'
+pod 'SwiftGen'
 end
