@@ -22,6 +22,13 @@
 		7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A02C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift */; };
 		7E2EF7A32C11F127001E2A81 /* СategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A22C11F127001E2A81 /* СategoryModel.swift */; };
 		7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7A42C11F16E001E2A81 /* CoreData.xcdatamodeld */; };
+		7E2EF7AB2C11F7C6001E2A81 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7AA2C11F7C6001E2A81 /* TabBarViewModel.swift */; };
+		7E2EF7B42C11F836001E2A81 /* SwiftGenLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7AC2C11F836001E2A81 /* SwiftGenLocalizable.swift */; };
+		7E2EF7C22C11F8D9001E2A81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E2EF7C02C11F8D9001E2A81 /* Localizable.strings */; };
+		7E2EF7C62C11F8EA001E2A81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E2EF7C42C11F8EA001E2A81 /* Localizable.strings */; };
+		7E2EF7CA2C11FB48001E2A81 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7C92C11FB48001E2A81 /* TabBarViewController.swift */; };
+		7E2EF7CC2C11FB69001E2A81 /* TabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7CB2C11FB69001E2A81 /* TabBarAssembly.swift */; };
+		7E2EF7D02C11FBD2001E2A81 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7CF2C11FBD2001E2A81 /* BaseCoordinator.swift */; };
 		7EE545012C0333550082B88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545002C0333550082B88B /* AppDelegate.swift */; };
 		7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545022C0333550082B88B /* SceneDelegate.swift */; };
 		7EE545052C0333550082B88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545042C0333550082B88B /* ViewController.swift */; };
@@ -46,6 +53,13 @@
 		7E2EF7A02C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7E2EF7A22C11F127001E2A81 /* СategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "СategoryModel.swift"; sourceTree = "<group>"; };
 		7E2EF7A52C11F16E001E2A81 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		7E2EF7AA2C11F7C6001E2A81 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		7E2EF7AC2C11F836001E2A81 /* SwiftGenLocalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGenLocalizable.swift; sourceTree = "<group>"; };
+		7E2EF7BF2C11F8D9001E2A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E2EF7C32C11F8EA001E2A81 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable.strings; sourceTree = "<group>"; };
+		7E2EF7C92C11FB48001E2A81 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		7E2EF7CB2C11FB69001E2A81 /* TabBarAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAssembly.swift; sourceTree = "<group>"; };
+		7E2EF7CF2C11FBD2001E2A81 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		7EE544FD2C0333550082B88B /* DeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE545002C0333550082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE545022C0333550082B88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +166,7 @@
 		7E2EF7922C11EFB3001E2A81 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				7E2EF7CD2C11FB80001E2A81 /* Coordinators */,
 				7EE545142C0340080082B88B /* Core */,
 			);
 			path = App;
@@ -179,6 +194,115 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		7E2EF7A72C11F774001E2A81 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7A82C11F781001E2A81 /* TabBarModule */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7E2EF7A82C11F781001E2A81 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7C82C11FB03001E2A81 /* Assembly */,
+				7E2EF7C72C11FAFC001E2A81 /* View */,
+				7E2EF7A92C11F7A1001E2A81 /* ViewModel */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		7E2EF7A92C11F7A1001E2A81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7AA2C11F7C6001E2A81 /* TabBarViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		7E2EF7AD2C11F836001E2A81 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7AC2C11F836001E2A81 /* SwiftGenLocalizable.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		7E2EF7B32C11F836001E2A81 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7BC2C11F88B001E2A81 /* Localizable */,
+				7E2EF7AD2C11F836001E2A81 /* Generated */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		7E2EF7BC2C11F88B001E2A81 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7C52C11F8EA001E2A81 /* ru.lproj */,
+				7E2EF7C12C11F8D9001E2A81 /* en.lproj */,
+			);
+			name = Localizable;
+			path = ../../../../HomeWorkTestApp/HomeWorkTestApp/HomeWorkTestApp/Resourse/Localizable;
+			sourceTree = "<group>";
+		};
+		7E2EF7C12C11F8D9001E2A81 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7C02C11F8D9001E2A81 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		7E2EF7C52C11F8EA001E2A81 /* ru.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7C42C11F8EA001E2A81 /* Localizable.strings */,
+			);
+			path = ru.lproj;
+			sourceTree = "<group>";
+		};
+		7E2EF7C72C11FAFC001E2A81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7C92C11FB48001E2A81 /* TabBarViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7E2EF7C82C11FB03001E2A81 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7CB2C11FB69001E2A81 /* TabBarAssembly.swift */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		7E2EF7CD2C11FB80001E2A81 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7D12C11FBD7001E2A81 /* ModuleCoordinators */,
+				7E2EF7CE2C11FBAB001E2A81 /* BaseCoordinator */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		7E2EF7CE2C11FBAB001E2A81 /* BaseCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7CF2C11FBD2001E2A81 /* BaseCoordinator.swift */,
+			);
+			path = BaseCoordinator;
+			sourceTree = "<group>";
+		};
+		7E2EF7D12C11FBD7001E2A81 /* ModuleCoordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModuleCoordinators;
+			sourceTree = "<group>";
+		};
 		7EE544F42C0333550082B88B = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +325,8 @@
 		7EE544FF2C0333550082B88B /* DeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				7E2EF7B32C11F836001E2A81 /* Resourse */,
+				7E2EF7A72C11F774001E2A81 /* Presentation */,
 				7E2EF7922C11EFB3001E2A81 /* App */,
 				7E2EF7942C11F01E001E2A81 /* Core */,
 				7E2EF77F2C11ED96001E2A81 /* Data */,
@@ -285,6 +411,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2EF7C62C11F8EA001E2A81 /* Localizable.strings in Resources */,
+				7E2EF7C22C11F8D9001E2A81 /* Localizable.strings in Resources */,
 				7EE5450A2C0333570082B88B /* Assets.xcassets in Resources */,
 				7EE5450D2C0333570082B88B /* Base in Resources */,
 				7E2EF7672C11E326001E2A81 /* swiftgen.yml in Resources */,
@@ -395,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE545052C0333550082B88B /* ViewController.swift in Sources */,
+				7E2EF7CC2C11FB69001E2A81 /* TabBarAssembly.swift in Sources */,
 				7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */,
 				7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */,
 				7E2EF79D2C11F115001E2A81 /* DishCoreData+CoreDataClass.swift in Sources */,
@@ -402,8 +531,12 @@
 				7E2EF7A12C11F11E001E2A81 /* CategoryCoreData+CoreDataClass.swift in Sources */,
 				7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */,
 				7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */,
+				7E2EF7D02C11FBD2001E2A81 /* BaseCoordinator.swift in Sources */,
+				7E2EF7CA2C11FB48001E2A81 /* TabBarViewController.swift in Sources */,
 				7EE545012C0333550082B88B /* AppDelegate.swift in Sources */,
 				7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */,
+				7E2EF7AB2C11F7C6001E2A81 /* TabBarViewModel.swift in Sources */,
+				7E2EF7B42C11F836001E2A81 /* SwiftGenLocalizable.swift in Sources */,
 				7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */,
 				7E2EF7972C11F0FF001E2A81 /* MenuTagData.swift in Sources */,
 				7E2EF79F2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift in Sources */,
@@ -417,6 +550,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		7E2EF7C02C11F8D9001E2A81 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2EF7BF2C11F8D9001E2A81 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7E2EF7C42C11F8EA001E2A81 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2EF7C32C11F8EA001E2A81 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7EE5450B2C0333570082B88B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

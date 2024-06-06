@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  DeliveryApp
+
+  Created by Павел Дмитриевич on 06.06.2024.
+  
+*/
+
+"mainViewControllerTitle" = "Главная";
+"searchViewControllerTitle" = "Поиск";
+"basketViewControllerTitle" = "Корзина";
+"profileViewControllerTitle" = "Аккаунт";
+"profileCityLabelText" = "Санкт-Петербург";
+"dateLabelText" = "12 Августа, 2023";
+"bakeriesTitle" = "Пекарни и кондитерское";
+"asianCuisineTitle" = "Азиатская кухня";
+"fastFoodTitle" = "Фастфуд";
+"soupsTitle" = "Супы";
+"addToBasketTitle" = "Добавить в корзину";
+"allMenuTag" = "Все меню";
+"withRiceTag" = "С рисом";
+"withFishTag" = "С рыбой";
+"saladsTag" = "Салаты";
+"weightLabelText" = "г";
