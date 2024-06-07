@@ -12,8 +12,10 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         options connectionOptions: UIScene.ConnectionOptions
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
+
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        let tabBarAssembly = TabBarAssemblyImpl()
+        window?.rootViewController = tabBarAssembly.createTabBarModule()
         window?.makeKeyAndVisible()
     }
 

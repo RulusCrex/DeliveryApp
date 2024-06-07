@@ -43,9 +43,12 @@
 		7E2EF7F62C120B81001E2A81 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7EE2C120B81001E2A81 /* MenuViewController.swift */; };
 		7E2EF7F72C120B81001E2A81 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7F02C120B81001E2A81 /* MenuViewModel.swift */; };
 		7E2EF7F92C120B95001E2A81 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */; };
+		7E2EF7FB2C120C01001E2A81 /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7FA2C120C01001E2A81 /* ProductCoordinator.swift */; };
+		7E2EF8032C120C21001E2A81 /* ProductAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7FC2C120C21001E2A81 /* ProductAssembly.swift */; };
+		7E2EF8042C120C21001E2A81 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF7FE2C120C21001E2A81 /* ProductViewController.swift */; };
+		7E2EF8052C120C21001E2A81 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2EF8002C120C21001E2A81 /* ProductViewModel.swift */; };
 		7EE545012C0333550082B88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545002C0333550082B88B /* AppDelegate.swift */; };
 		7EE545032C0333550082B88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545022C0333550082B88B /* SceneDelegate.swift */; };
-		7EE545052C0333550082B88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE545042C0333550082B88B /* ViewController.swift */; };
 		7EE5450A2C0333570082B88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE545092C0333570082B88B /* Assets.xcassets */; };
 		7EE5450D2C0333570082B88B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5450C2C0333570082B88B /* Base */; };
 		DFE3A244159BD9585E90040B /* Pods_DeliveryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95834055F91170DC17A2ECAB /* Pods_DeliveryApp.framework */; };
@@ -88,10 +91,13 @@
 		7E2EF7EE2C120B81001E2A81 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7E2EF7F02C120B81001E2A81 /* MenuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		7E2EF7FA2C120C01001E2A81 /* ProductCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
+		7E2EF7FC2C120C21001E2A81 /* ProductAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAssembly.swift; sourceTree = "<group>"; };
+		7E2EF7FE2C120C21001E2A81 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		7E2EF8002C120C21001E2A81 /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		7EE544FD2C0333550082B88B /* DeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE545002C0333550082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE545022C0333550082B88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EE545042C0333550082B88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EE545092C0333570082B88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE5450C2C0333570082B88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE5450E2C0333570082B88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -226,6 +232,7 @@
 		7E2EF7A72C11F774001E2A81 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				7E2EF8022C120C21001E2A81 /* ProductModule */,
 				7E2EF7F22C120B81001E2A81 /* MenuModule */,
 				7E2EF7DA2C11FE48001E2A81 /* CategoryModule */,
 				7E2EF7A82C11F781001E2A81 /* TabBarModule */,
@@ -332,6 +339,7 @@
 			children = (
 				7E2EF7E72C120A7E001E2A81 /* CategoryCoordinator.swift */,
 				7E2EF7F82C120B95001E2A81 /* MenuCoordinator.swift */,
+				7E2EF7FA2C120C01001E2A81 /* ProductCoordinator.swift */,
 			);
 			path = ModuleCoordinators;
 			sourceTree = "<group>";
@@ -441,6 +449,40 @@
 			path = MenuModule;
 			sourceTree = "<group>";
 		};
+		7E2EF7FD2C120C21001E2A81 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7FC2C120C21001E2A81 /* ProductAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7E2EF7FF2C120C21001E2A81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7FE2C120C21001E2A81 /* ProductViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E2EF8012C120C21001E2A81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF8002C120C21001E2A81 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7E2EF8022C120C21001E2A81 /* ProductModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E2EF7FD2C120C21001E2A81 /* Assembly */,
+				7E2EF7FF2C120C21001E2A81 /* View */,
+				7E2EF8012C120C21001E2A81 /* ViewModel */,
+			);
+			path = ProductModule;
+			sourceTree = "<group>";
+		};
 		7EE544F42C0333550082B88B = {
 			isa = PBXGroup;
 			children = (
@@ -468,7 +510,6 @@
 				7E2EF7922C11EFB3001E2A81 /* App */,
 				7E2EF7942C11F01E001E2A81 /* Core */,
 				7E2EF77F2C11ED96001E2A81 /* Data */,
-				7EE545042C0333550082B88B /* ViewController.swift */,
 			);
 			path = DeliveryApp;
 			sourceTree = "<group>";
@@ -660,7 +701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE545052C0333550082B88B /* ViewController.swift in Sources */,
+				7E2EF8042C120C21001E2A81 /* ProductViewController.swift in Sources */,
 				7E2EF7CC2C11FB69001E2A81 /* TabBarAssembly.swift in Sources */,
 				7E2EF78D2C11EEF5001E2A81 /* RealmManager.swift in Sources */,
 				7E2EF7A62C11F16E001E2A81 /* CoreData.xcdatamodeld in Sources */,
@@ -671,7 +712,9 @@
 				7E2EF7F72C120B81001E2A81 /* MenuViewModel.swift in Sources */,
 				7E2EF7DB2C11FE48001E2A81 /* CategoryAssembly.swift in Sources */,
 				7E2EF7992C11F107001E2A81 /* MenuData.swift in Sources */,
+				7E2EF8032C120C21001E2A81 /* ProductAssembly.swift in Sources */,
 				7E2EF7872C11EE72001E2A81 /* StoragesRepository.swift in Sources */,
+				7E2EF8052C120C21001E2A81 /* ProductViewModel.swift in Sources */,
 				7E2EF7F62C120B81001E2A81 /* MenuViewController.swift in Sources */,
 				7E2EF7D02C11FBD2001E2A81 /* BaseCoordinator.swift in Sources */,
 				7E2EF7E82C120A7E001E2A81 /* CategoryCoordinator.swift in Sources */,
@@ -686,6 +729,7 @@
 				7E2EF7B42C11F836001E2A81 /* SwiftGenLocalizable.swift in Sources */,
 				7E2EF78F2C11EF11001E2A81 /* CacheService.swift in Sources */,
 				7E2EF7F92C120B95001E2A81 /* MenuCoordinator.swift in Sources */,
+				7E2EF7FB2C120C01001E2A81 /* ProductCoordinator.swift in Sources */,
 				7E2EF7972C11F0FF001E2A81 /* MenuTagData.swift in Sources */,
 				7E2EF79F2C11F119001E2A81 /* CategoryCoreData+CoreDataProperties.swift in Sources */,
 				7E2EF7F32C120B81001E2A81 /* MenuAssembly.swift in Sources */,
