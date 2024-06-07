@@ -53,9 +53,9 @@ final class TabBarViewModelImpl: TabBarViewModel {
         ]
         return viewControllers
     }
-    
+
     // MARK: Private Methods
-    
+
     private func generateVC(viewController: UIViewController, title: String, image: UIImage?) -> UIViewController {
         viewController.tabBarItem.title = title
         viewController.tabBarItem.image = image
